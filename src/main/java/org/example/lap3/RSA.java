@@ -1,4 +1,4 @@
-package org.example.RSA;
+package org.example.lap3;
 
 import javax.crypto.Cipher;
 import java.nio.charset.StandardCharsets;

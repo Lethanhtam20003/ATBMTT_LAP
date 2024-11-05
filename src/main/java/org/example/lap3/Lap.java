@@ -1,4 +1,4 @@
-package org.example.RSA;
+package org.example.lap3;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -8,7 +8,6 @@ import java.io.DataOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.security.*;
 
 public class Lap {
