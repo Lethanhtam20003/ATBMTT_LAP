@@ -9,7 +9,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 //MP5
-public class Hash {
+public class MD5 {
 
     public String hash(String data) throws NoSuchAlgorithmException {
 //        khoi tao MessageDigiest voi thuat toan MD5
@@ -43,7 +43,7 @@ public class Hash {
         return number.toString(16);
     }
     public static void main(String[] args) throws Exception {
-        Hash hash = new Hash();
+        MD5 hash = new MD5();
         System.out.println(hash.hash("heloo").equals("948fab37aeaa563cfa7f009d836ead8d"));
         System.out.println(hash.hashFile("D:\\storage\\taiLieu\\logo trường\\logo.png").equals("a32f183353abc91feeb9cdd95bf5bd48"));
 
